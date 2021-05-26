@@ -1,0 +1,118 @@
+.team-page{
+  width: 100%;
+  padding: 80px 0;
+  background-color: $background;
+
+  @media screen and (max-width: 900px){
+    padding: 32px 0;
+  }
+
+  .title{
+    max-width: 800px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+    color: $primary;
+
+    @media screen and (max-width: 900px){
+      max-width: 270px;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 800;
+    }
+  }
+
+  .body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    @media screen and (max-width: 900px){
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+    }
+
+    .left{
+      width: 48%;
+      max-width: 500px;
+
+      @media screen and (max-width: 900px){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      }
+
+      .desc{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 500;
+        color: $font-color;
+
+        @media screen and (max-width: 900px) {
+          font-size: 16px;
+          line-height: 30px;
+          font-weight: 500;
+        }
+      }
+      .count-container{
+        margin-top: 40px;
+
+        @media screen and (max-width: 900px){
+          margin-top: 32px;
+        }
+
+        .count{
+          margin-bottom: 4px;
+          font-size: 120px;
+          line-height: 96px;
+          font-weight: 700;
+          color: $primary;
+
+          @media screen and (max-width: 900px){
+            margin-bottom: 16px;
+            font-size: 80px;
+            line-height: 70px!important;
+          }
+        }
+
+        .text{
+          font-size: 40px;
+          line-height: 72px;
+          font-weight: 800;
+          color: $font-color;
+
+          @media screen and (max-width: 900px){
+            font-size: 24px;
+            line-height: 72px;
+            font-weight: 800;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .right{
+      width: 48%;
+      max-width: 500px;
+
+      @media screen and (max-width: 900px){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .img{
+        width: 100%;
+
+        @media screen and (max-width: 900px){
+          max-width: 300px;
+          margin: 32px;
+          align-self: center;
+        }
+      }
+    }
+  }
+
